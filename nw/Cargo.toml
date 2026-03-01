@@ -1,0 +1,15 @@
+[package]
+name = "nw"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rayon="*"
+rand="0.9.2"
+array2d="*"
+[profile.release]
+debug=false
+opt-level = 3
+lto = "fat"
+codegen-units = 1
+panic = "abort"

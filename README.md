@@ -1,4 +1,4 @@
-#NPDP Bench-rs
+# NPDP Bench-rs
 Rusty rewrite of the [NPDP_Bench project](https://github.com/markpal/NPDP_Bench) made by [markpal](https://github.com/markpal). This rewrite uses packages listed below:
 
 
